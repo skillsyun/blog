@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
+const SkillHeader = ({ siteTitle }) => (
   <header
     style={{
       background: `rebeccapurple`,
@@ -31,12 +31,12 @@ const Header = ({ siteTitle }) => (
   </header>
 )
 
-Header.propTypes = {
+SkillHeader.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+SkillHeader.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default SkillHeader
